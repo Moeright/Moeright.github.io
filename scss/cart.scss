@@ -1,14 +1,5 @@
 @charset "utf-8";
-
-html,
-body,
-div,
-h1,h2,h3,
-ul,li,
-dl,dt,dd,
-p,
-img,
-input {
+html,body,div,h1,h2,h3,ul,li,dl,dt,dd,p,img,input {
 	margin: 0;
 	padding: 0;
 }
@@ -19,18 +10,15 @@ input {
 	content: '';
 	clear: both;
 }
-
 body {
 	font-size: 14px;
 	font-family: "microsoft yahei";
 	color: #666;
 }
-
 a {
 	text-decoration: none;
 	color: #666;
 }
-
 li {
 	list-style: none;
 }
@@ -55,8 +43,6 @@ li {
 	width: 1000px;
 	height: 131px;
 }
-
-/*cart-main*/
 .cart-main {
 	padding: 25px;
 	background-color: #fff;
@@ -88,8 +74,6 @@ li {
 	width: 69px;
 }
 
-
-/*cart-title*/
 .cart-main .cart-main-title {
 	line-height: 50px;
 }
@@ -108,8 +92,6 @@ li {
 	color: #f40;
 	text-decoration: underline;
 }
-
-/*cart-goods-item*/
 .cart-goods-item {
 	padding: 10px 0;
 	border-bottom: 1px solid #ccc;

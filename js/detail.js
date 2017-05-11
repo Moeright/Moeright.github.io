@@ -6,29 +6,22 @@ require(['../config'],function () {
   	var largeWrap = $('.large');
   	var midImg = $('.middle img');
   	var largeImg = $('.large img');
-
     var ol = left.offset().left;
     var ot = left.offset().top;
-    // console.log(ol);
-    // console.log(ot);
-
     midWrap.on('mouseover',function (e) {
       var l = e.pageX - ol - 81;
       var t = e.pageY - ot - 81;
-      // console.log(l);
       l = l<0? 0 :(l>162?162:l);
       t = t<0? 0 :(t>162?162:t);
       filter.css({"left":l,"top":t});
       largeImg.css({"left":-2*l,"top":-2*t});
       filter.show();
       largeWrap.show();
-
     });
     midWrap.on('mouseleave',function () {
       filter.hide();
       largeWrap.hide();
     });
-      // 小图
     var imgs =$('.img-wrap img');
   	var arrowR = $('.glass-slide .arrow-right');
   	var arrowL = $('.glass-slide .arrow-left');
@@ -40,7 +33,6 @@ require(['../config'],function () {
       $(imgs).removeClass("active");
       $(this).addClass("active");
     });
-    // 左右点击
     var index = 0;
     arrowR.on("click",function () {
       index ++;
@@ -61,23 +53,16 @@ require(['../config'],function () {
       imgWrap.stop();
       imgWrap.css({"marginLeft":-88*index});
     });
-    // 右边购物车
     var detail = {
-      // data = {},
       init:function () {
         var _this = this;
         $.getJSON('json/detail-data.json',function (result) {
-          // 获取并保留数据
           _this.data = result;
           console.log(result);
-          // 通过id获取模板代码，然后与data 数据结合，返回编译后的html代码
           var list = template('type-list',result);
-          // 打印字符串按照模板到页面
           $('.color-content').html(list);
-          // 设置第一个为选中状态
           var first =  $('.color-content li:first');
           first.addClass('selected');
-
           var id = first.data('id');
           $('.goods-price').html( 4);
            $('.stock-num').html(9);
@@ -146,7 +131,6 @@ require(['../config'],function () {
         var amount = parseInt($('.amount-input').val());
         var cart = $.cookie('tm-cart') || '{}';
         cart = JSON.parse(cart);
-
         if (!cart[id]) {
           cart[id] = {
             id:id,
@@ -155,15 +139,13 @@ require(['../config'],function () {
         }else {
           cart[id].amount +=amount;
         }
-
         alert('加入成功');
-        $.cookie('tm-cart',JSON.stringify(cart),{expires:365,path:'/'});
+        $.cookie('tm-cart',JSON.stringify(cart),{expires:60,path:'/'});
         console.log(JSON.parse($.cookie('tm-cart')));
       });
     }
  };
     detail.init();
-
 // 分隔线
   });
 });

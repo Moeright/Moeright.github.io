@@ -1,6 +1,3 @@
-/*
-	首页
-*/
 require(['../config'],function(){
 	require(['jquery','bootstrap','layer',"template","xuanxiangka","sfq","jquery.cookie"],function($,bt,layer,template,xuanxiangka,sfq){
 		layer.config({
