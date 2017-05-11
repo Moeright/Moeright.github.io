@@ -1,0 +1,17 @@
+[
+[{"start":"北京","end":"上海","time":"05月10日","discount":"1.3折","price":"￥126.5"},
+{"start":"北京西","end":"太原","time":"05月10日","discount":"1.4折","price":"￥72"},
+{"start":"北京西","end":"西安","time":"05月10日","discount":"1.6折","price":"￥148.5"},
+{"start":"北京西","end":"合肥","time":"05月10日","discount":"1.7折","price":"￥138.5"},
+{"start":"北京","end":"杭州","time":"05月10日","discount":"1.7折","price":"￥189.5"},
+{"start":"北京","end":"郑州","time":"05月10日","discount":"1.8折","price":"￥93"}
+],
+
+[{"start":"上海","end":"北京","time":"05月10日","discount":"1.3折","price":"￥156.5"},
+{"start":"上海","end":"成都","time":"05月10日","discount":"1.4折","price":"￥254.5"},
+{"start":"上海","end":"天津","time":"05月10日","discount":"1.6折","price":"￥143.5"},
+{"start":"上海","end":"重庆北","time":"05月10日","discount":"1.7折","price":"￥240"},
+{"start":"上海","end":"长沙南","time":"05月10日","discount":"1.7折","price":"￥148.5"},
+{"start":"上海","end":"哈尔滨","time":"05月10日","discount":"1.8折","price":"￥273.5"}
+]
+]

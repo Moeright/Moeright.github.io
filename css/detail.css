@@ -1,0 +1,862 @@
+header {
+  width: 100%;
+  height: 76px;
+  position: relative;
+}
+
+header .headercon {
+  width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+header .headercon .logo {
+  width: 130px;
+  height: 48px;
+  position: absolute;
+  margin-top: 14px;
+  float: left;
+}
+
+.logo a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: url(../imgs/el_com.png) no-repeat -656px 0;
+}
+
+.headercon .headerright {
+  width: 700px;
+  height: 42px;
+  float: right;
+  margin-top: 5px;
+}
+
+.headerright .branch_menu {
+  width: 350px;
+  height: 100%;
+  float: left;
+  background: white;
+}
+
+.headerright .headerph {
+  width: 150px;
+  height: 100%;
+  float: left;
+}
+
+.headerright .online_phone {
+  width: 180px;
+  height: 100%;
+  float: right;
+  background: #fff;
+}
+
+.branch_menu ul {
+  padding-top: 10px;
+}
+
+.branch_menu ul li {
+  height: 14px;
+  float: left;
+}
+
+.branch_menu ul li a {
+  color: #999;
+  font-size: 14px;
+  height: 14px;
+  line-height: 14px;
+  margin: 0 10px;
+}
+
+.branch_menu ul li a:hover {
+  color: #f00;
+}
+
+.branch_menu ul li span {
+  width: 1px;
+  height: 12px;
+  float: right;
+  background: #ccc;
+  margin-top: 3px;
+}
+
+.branch_menu ul li:nth-child(4) {
+  height: 34px;
+  width: 70px;
+  position: relative;
+  border: 1px solid #fff;
+}
+
+.branch_menu ul li:nth-child(4) .down {
+  width: 18px;
+  height: 8px;
+  display: block;
+  background: url(../imgs/icon_2015.png) no-repeat -356px -36px;
+  margin: 5px 0 0 24px;
+}
+
+.branch_menu ul li:nth-child(4) p {
+  position: absolute;
+  width: 70px;
+  height: 60px;
+  border: 1px solid #ccc;
+  border-top: none;
+  margin: 0 0 0 -1px;
+  display: none;
+}
+
+.branch_menu ul li:nth-child(4) p a {
+  height: 28px;
+  display: block;
+  line-height: 28px;
+  border-top: 1px dashed #ccc;
+}
+
+.branch_menu li:nth-child(4):hover {
+  border: 1px solid #ccc;
+  border-bottom: none;
+}
+
+.branch_menu li:nth-child(4):hover p {
+  display: block;
+  background: #fff;
+}
+
+.headerph i {
+  float: left;
+  width: 42px;
+  height: 100%;
+  background: url(../imgs/com_icon01.gif) no-repeat;
+}
+
+.headerph span {
+  float: left;
+  padding-left: 10px;
+  color: orange;
+  font-size: 14px;
+}
+
+.headerph span:hover {
+  color: orange;
+}
+
+.headerph .zhuanxiang {
+  width: 60px;
+  height: 22px;
+  float: left;
+}
+
+.headerph .zhuanxiang p {
+  position: relative;
+  width: 100px;
+}
+
+.headerph .zhuanxiang p .arrow {
+  position: absolute;
+  background: url(../imgs/icon_2015.png) no-repeat -210px 0;
+  width: 20px;
+  height: 16px;
+  top: 30px;
+  left: -15px;
+  display: none;
+}
+
+.headerph .zhuanxiang p .two-bar {
+  position: absolute;
+  background: url(../imgs/icon_2015.png) no-repeat -377px -235px;
+  width: 226px;
+  height: 102px;
+  top: 40px;
+  left: -50px;
+  border: 1px solid #fff;
+  display: none;
+}
+
+.headerph .zhuanxiang p:hover .two-bar {
+  border: 1px solid #ccc;
+  z-index: 2;
+  display: block;
+}
+
+.headerph .zhuanxiang p:hover .arrow {
+  display: block;
+  z-index: 10;
+}
+
+.online_phone .online_phone_1 {
+  float: left;
+  width: 42px;
+  height: 100%;
+  background: url(../imgs/icon_2015.png) no-repeat -42px -2px;
+}
+
+.online_phone .kefu {
+  float: left;
+  padding-left: 10px;
+  font-size: 14px;
+  color: #000;
+}
+
+.online_phone .lianxi {
+  width: 100px;
+  height: 22px;
+  float: left;
+}
+
+.online_phone .lianxi .number {
+  position: relative;
+  width: 100px;
+  font-size: 16px;
+  color: #00f;
+}
+
+.online_phone .lianxi .number .arrow1 {
+  position: absolute;
+  width: 20px;
+  height: 16px;
+  top: 27px;
+  left: -10px;
+  background: url(../imgs/icon_2015.png) no-repeat -210px 0;
+  display: none;
+}
+
+.online_phone .lianxi .number .two-bar1 {
+  position: absolute;
+  width: 226px;
+  height: 142px;
+  top: 37px;
+  left: -50px;
+  border: 1px solid #ccc;
+  display: none;
+}
+
+.online_phone .lianxi .number .loca {
+  position: absolute;
+  width: 226px;
+  height: 142px;
+  top: 37px;
+  left: -50px;
+  border: 1px solid #ccc;
+  display: none;
+}
+
+.online_phone .lianxi .number .loca a {
+  float: left;
+  width: 210px;
+  line-height: 28px;
+  margin-left: 6px;
+  border-bottom: 1px dashed #ccc;
+  font-size: 12px;
+}
+
+.online_phone .lianxi .number .loca a:nth-child(4) {
+  border-bottom: none;
+}
+
+.online_phone .lianxi .number:hover .arrow1 {
+  display: block;
+  z-index: 124;
+}
+
+.online_phone .lianxi .number:hover .two-bar1 {
+  display: block;
+  z-index: 14;
+}
+
+.online_phone .lianxi .number:hover .loca {
+  display: block;
+  background: #fff;
+  z-index: 24;
+}
+
+.online_phone_1 .loca {
+  width: 140px;
+  height: 100px;
+  background: #f00;
+}
+
+nav {
+  width: 100%;
+  height: 40px;
+  background: #2064c8;
+}
+
+nav .navcon {
+  width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+nav .navcon .navlist {
+  height: 100%;
+  float: left;
+}
+
+nav .navcon .navlist li {
+  float: left;
+  padding: 0 16px;
+  height: 100%;
+  line-height: 40px;
+  border-right: 1px solid #3774ce;
+}
+
+nav .navcon .navlist li a {
+  color: #fff;
+  font-size: 14px;
+}
+
+nav .navcon .navlist li:hover {
+  background: #3265b2;
+}
+
+nav .navcon .navlist .inter {
+  position: relative;
+}
+
+nav .navcon .navlist .inter span {
+  display: block;
+  position: absolute;
+  width: 42px;
+  height: 20px;
+  background: url(../imgs/el_com.png) no-repeat -508px 0;
+  top: -10px;
+  left: 50px;
+}
+
+nav .navcon .navlist .duanzu {
+  position: relative;
+}
+
+nav .navcon .navlist .duanzu span {
+  display: block;
+  position: absolute;
+  width: 42px;
+  height: 20px;
+  background: url(../imgs/el_com.png) no-repeat -470px -30px;
+  top: -10px;
+  left: 50px;
+}
+
+nav .navcon .navlist .bus {
+  position: relative;
+}
+
+nav .navcon .navlist .bus span {
+  display: block;
+  position: absolute;
+  width: 42px;
+  height: 20px;
+  background: url(../imgs/el_com.png) no-repeat -426px -30px;
+  top: -10px;
+  left: 50px;
+}
+
+nav .navcon .navlist .lend {
+  position: relative;
+}
+
+nav .navcon .navlist .lend span {
+  display: block;
+  position: absolute;
+  width: 16px;
+  height: 20px;
+  background: url(../imgs/el_com.png) no-repeat -490px 0px;
+  top: -10px;
+  left: 50px;
+}
+
+.account {
+  width: 220px;
+  height: 40px;
+  float: right;
+  font-size: 14px;
+  position: relative;
+  z-index: 7;
+}
+
+.account .regist {
+  width: 100%;
+  height: 40px;
+  background: #003679;
+  color: #fff;
+}
+
+.account .regist .deng {
+  float: left;
+  margin: 10px 0 0 26px;
+}
+
+.account .regist .ce {
+  float: right;
+  margin: 10px 26px 0 0;
+}
+
+.account .regist .xian {
+  float: left;
+  margin: 9px 0 0 5px;
+}
+
+.account .regist .deng a, .account .regist .ce a, .account .regist .xian a {
+  color: #fff;
+}
+
+.account .drop_box {
+  width: 208px;
+  height: 280px;
+  background: #fff;
+  right: 0;
+  display: none;
+  position: absolute;
+  right: 0;
+}
+
+.account .drop_box .new_regist {
+  width: 180px;
+  height: 34px;
+  margin: 10px 14px;
+  background: orange;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.account .drop_box .new_regist a {
+  color: #fff;
+  font-size: 18px;
+  line-height: 34px;
+}
+
+.account .drop_box .clx {
+  width: 180px;
+  margin: 0 14px;
+}
+
+.account .drop_box .clx li {
+  width: 60px;
+  height: 64px;
+  background: #fff;
+  float: left;
+}
+
+.account .drop_box .clx li a {
+  font-size: 12px;
+  color: #666;
+  float: left;
+  margin: 0 auto;
+  width: 60px;
+  text-align: center;
+}
+
+.account .drop_box .clx li:nth-child(1) b {
+  background: url(../imgs/el_com.png) no-repeat -152px -678px;
+  width: 40px;
+  height: 40px;
+  float: left;
+}
+
+.account .drop_box .clx li:nth-child(1):hover b {
+  background: url(../imgs/el_com.png) no-repeat 8px -678px;
+}
+
+.account .drop_box .clx li:nth-child(1):hover a {
+  color: #00f;
+}
+
+.account .drop_box .clx li:nth-child(2) b {
+  background: url(../imgs/el_com.png) no-repeat -214px -678px;
+  width: 40px;
+  height: 40px;
+  float: left;
+}
+
+.account .drop_box .clx li:nth-child(2):hover b {
+  background: url(../imgs/el_com.png) no-repeat -44px -678px;
+}
+
+.account .drop_box .clx li:nth-child(2):hover a {
+  color: #00f;
+}
+
+.account .drop_box .clx li:nth-child(3) b {
+  background: url(../imgs/el_com.png) no-repeat -276px -622px;
+  width: 40px;
+  height: 40px;
+  float: left;
+}
+
+.account .drop_box .clx li:nth-child(3):hover b {
+  background: url(../imgs/el_com.png) no-repeat -98px -622px;
+}
+
+.account .drop_box .clx li:nth-child(3):hover a {
+  color: #00f;
+}
+
+.account .drop_box .clx li:nth-child(4) b {
+  background: url(../imgs/el_com.png) no-repeat -214px -620px;
+  width: 40px;
+  height: 40px;
+  float: left;
+}
+
+.account .drop_box .clx li:nth-child(4):hover b {
+  background: url(../imgs/el_com.png) no-repeat -46px -620px;
+}
+
+.account .drop_box .clx li:nth-child(4):hover a {
+  color: #00f;
+}
+
+.account .drop_box .clx li:nth-child(5) b {
+  background: url(../imgs/el_com.png) no-repeat -152px -622px;
+  width: 40px;
+  height: 40px;
+  float: left;
+}
+
+.account .drop_box .clx li:nth-child(5):hover b {
+  background: url(../imgs/el_com.png) no-repeat 8px -622px;
+}
+
+.account .drop_box .clx li:nth-child(5):hover a {
+  color: #00f;
+}
+
+.account .drop_box .clx li:nth-child(6) b {
+  background: url(../imgs/el_com.png) no-repeat -152px -569px;
+  width: 40px;
+  height: 40px;
+  float: left;
+}
+
+.account .drop_box .clx li:nth-child(6):hover b {
+  background: url(../imgs/el_com.png) no-repeat 8px -569px;
+}
+
+.account .drop_box .clx li:nth-child(6):hover a {
+  color: #00f;
+}
+
+.account .drop_box .clx li:nth-child(7) b {
+  background: url(../imgs/el_com.png) no-repeat -280px -567px;
+  width: 40px;
+  height: 40px;
+  float: left;
+}
+
+.account .drop_box .clx li:nth-child(7):hover b {
+  background: url(../imgs/el_com.png) no-repeat -99px -567px;
+}
+
+.account .drop_box .clx li:nth-child(7):hover a {
+  color: #00f;
+}
+
+.account .drop_box .clx li:nth-child(8) b {
+  background: url(../imgs/el_com.png) no-repeat -280px -678px;
+  width: 40px;
+  height: 40px;
+  float: left;
+}
+
+.account .drop_box .clx li:nth-child(8):hover b {
+  background: url(../imgs/el_com.png) no-repeat -99px -678px;
+}
+
+.account .drop_box .clx li:nth-child(8):hover a {
+  color: #00f;
+}
+
+.account:hover .drop_box {
+  display: block;
+}
+
+.bread {
+  width: 1200px;
+  height: 40px;
+  margin: 0 auto;
+}
+
+.bread p {
+  height: 40px;
+  line-height: 40px;
+}
+
+.con {
+  width: 1200px;
+  height: 800px;
+  margin: 0 auto;
+}
+
+.con .conhead {
+  width: 1200px;
+  height: 60px;
+  background: #F5F5F5;
+}
+
+.con .conhead p {
+  width: 1200;
+  height: 60px;
+  line-height: 60px;
+  font-size: 24px;
+}
+
+.con .left {
+  width: 325px;
+  height: 410px;
+  background: #FFFACD;
+  float: left;
+  margin: 5px 30px 0 30px;
+}
+
+.con .left .glass-main {
+  position: relative;
+  width: 325px;
+  height: 325px;
+}
+
+.con .left .glass-main .middle {
+  position: relative;
+  height: 100%;
+}
+
+.con .left .glass-main .middle .filter {
+  position: absolute;
+  display: none;
+  top: 0;
+  left: 0;
+  width: 162px;
+  height: 162px;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.con .left .glass-main .large {
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 325px;
+  width: 325px;
+  height: 325px;
+  display: none;
+}
+
+.con .left .glass-main .large img {
+  position: absolute;
+  width: 650px;
+  height: 650px;
+  left: 0;
+}
+
+.con .left .glass-slide {
+  position: relative;
+  height: 85px;
+}
+
+.con .left .glass-slide .arrow {
+  position: absolute;
+  top: 10px;
+  height: 30px;
+  width: 20px;
+  background: url(../imgs/sprite.png) no-repeat;
+}
+
+.con .left .glass-slide .arrow-left {
+  left: 0;
+  background-position: -30px 0;
+}
+
+.con .left .glass-slide .arrow-right {
+  right: 0;
+  background-position: 0 -30px;
+}
+
+.con .left .glass-slide .slide-main {
+  overflow: hidden;
+  position: absolute;
+  left: 30px;
+  top: 0;
+  width: 260px;
+  height: 85px;
+}
+
+.con .left .glass-slide .slide-main .img-wrap {
+  width: 600px;
+  height: 85px;
+}
+
+.con .left .glass-slide .slide-main .img-wrap img {
+  float: left;
+  width: 83px;
+  height: 83px;
+  margin-right: 5px;
+  border: 1px solid #fff;
+}
+
+.con .left .glass-slide .slide-main .img-wrap img.active {
+  border-color: red;
+}
+
+.con .right {
+  width: 530px;
+  height: 410px;
+  float: left;
+}
+
+.goods-detail {
+  width: 990px;
+  margin: 100px auto 0;
+}
+
+.goods-detail .left {
+  float: left;
+  width: 420px;
+  margin: 0 20px;
+}
+
+.right {
+  float: right;
+  width: 530px;
+}
+
+.right .goods-title {
+  font-size: 16px;
+}
+
+.right .price {
+  height: 50px;
+  line-height: 50px;
+  margin: 20px 0;
+  background-color: #ccc;
+}
+
+.right .price .title {
+  width: 65px;
+  float: left;
+  margin-left: 8px;
+}
+
+.right .price .price-wrap {
+  float: left;
+  margin-left: 10px;
+  color: #c33;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.right .price-wrap .goods-price {
+  font-size: 22px;
+}
+
+.tb-prop {
+  padding-left: 12px;
+  margin-bottom: 20px;
+  font-size: 12px;
+}
+
+.tb-prop .tb-title,
+.tb-prop .tb-con {
+  float: left;
+}
+
+.tb-prop .tb-title {
+  width: 60px;
+}
+
+.tb-prop .tb-con {
+  width: 400px;
+}
+
+.tb-prop .tb-con .tb-con-item {
+  float: left;
+  border: 1px solid #ccc;
+  margin-right: 5px;
+  line-height: 38px;
+  margin: 3px;
+}
+
+.tb-prop .tb-con .tb-con-item:hover,
+.tb-prop .tb-con .tb-con-item.selected {
+  border-color: #be0106;
+}
+
+.tb-prop .tb-con-item a {
+  display: block;
+  padding: 0 10px;
+}
+
+/*amount*/
+.amount {
+  height: 28px;
+  line-height: 28px;
+}
+
+.amount .amount-item {
+  float: left;
+}
+
+.amount-op {
+  position: relative;
+  width: 60px;
+  height: 26px;
+  margin-right: 10px;
+}
+
+.amount-op .amount-input {
+  position: absolute;
+  left: 0;
+  width: 38px;
+  height: 100%;
+  border: 1px solid #ccc;
+  text-indent: 3px;
+  outline: none;
+}
+
+.amount-op .amount-increase,
+.amount-op .amount-decrease {
+  position: absolute;
+  left: 43px;
+  width: 15px;
+  height: 11px;
+  line-height: 11px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.amount-op .amount-increase {
+  top: 0;
+}
+
+.amount-op .amount-decrease {
+  top: 15px;
+}
+
+.tb-prop .stock {
+  margin-left: 20px;
+}
+
+.tb-prop .user-option {
+  float: left;
+  width: 160px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  border: 1px solid #be0106;
+  background-color: #ffeded;
+}
+
+.tb-prop .user-option a {
+  display: block;
+  color: #be0106;
+}
+
+.tb-prop .user-option.option-bynow {
+  margin-right: 20px;
+}
+
+.tb-prop .user-option.option-addCart {
+  background-color: #be0106;
+}
+
+.tb-prop .user-option.option-addCart a {
+  color: #fff;
+}

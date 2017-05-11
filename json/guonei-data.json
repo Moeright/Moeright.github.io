@@ -1,0 +1,31 @@
+[
+[{"pic":"../imgs/dgtq-hs.jpg","des":"春意撩人 登高踏青赏春色","span1":"黄山"},
+{"pic":"../imgs/dgtq-ems.jpg","des":"阳春三月 闻着茶香去峨眉","span1":"峨眉山"},
+{"pic":"../imgs/dgtq-wts.jpg","des":"迎春 祈福 登五台","span1":"五台山"},
+{"pic":"../imgs/dgtq-ls.jpg","des":"亲近自然 春游庐山","span1":"庐山"}],
+
+[{"pic":"../imgs/hbtl-tianmuhu.jpg","des":"古树错落  帝王温泉","span1":"江苏天目湖"},
+{"pic":"../imgs/hbtl-tianmuweihai.jpg","des":"森林温泉  草本养生","span1":"威海天沐威海温泉"},
+{"pic":"../imgs/hbtl-zhongshan.jpg","des":"毗邻港澳  商务养生","span1":"广东中山温泉"},
+{"pic":"../imgs/hbtl-anbo.jpg","des":"延年益寿  名誉中外","span1":"辽宁大连安波温泉"}],
+
+[{"pic":"../imgs/hbtl-lasa.jpg","des":"高原古城 圣山天湖 沁人心脾","span1":"拉萨"},
+{"pic":"../imgs/hbtl-dali.jpg","des":"文献名邦 彩云之南 空谷幽兰","span1":"大理"},
+{"pic":"../imgs/hbtl-zhoushan.jpg","des":"东海翡翠 舟山群岛 气候宜人","span1":"舟山"},
+{"pic":"../imgs/hbtl-xiamen.jpg","des":"天风海涛 鼓浪岛屿 鸟语芬芳","span1":"厦门"}],
+
+[{"pic":"../imgs/cysh-xlgl.jpg","des":"草原 牧民 小马驹","span1":"锡林郭勒"},
+{"pic":"../imgs/cysh-bs.jpg","des":"帝都最近的草原","span1":"坝上"},
+{"pic":"../imgs/cysh-reg.jpg","des":"高原上的绿洲","span1":"若尔盖"},
+{"pic":"../imgs/cysh-qls.jpg","des":"风景如画 醉美祁连山","span1":"祁连山"}],
+
+[{"pic":"../imgs/termini_t3_xt.jpg","des":"烟雨长廊 景色好似宣纸画","span1":"西塘"},
+{"pic":"../imgs/termini_t3_hs.jpg","des":"古风犹存 如诗如画","span1":"和顺"},
+{"pic":"../imgs/termini_t3_wz.jpg","des":"推窗见水 小桥人家","span1":"乌镇"},
+{"pic":"../imgs/termini_t3_py.jpg","des":"晋商遗风 古城探幽","span1":"平遥"}],
+
+[{"pic":"../imgs/termini_t4_xg.jpg","des":"只有想不到，没有找不到","span1":"香港"},
+{"pic":"../imgs/termini_t4_cd.jpg","des":"不只有火锅，吃是头等事","span1":"成都"},
+{"pic":"../imgs/termini_t4_yz.jpg","des":"吴侬软语 淮味养人","span1":"扬州"},
+{"pic":"../imgs/termini_t4_cs.jpg","des":"美食怕不辣，湘味最十足","span1":"长沙"}]
+]

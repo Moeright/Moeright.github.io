@@ -1,0 +1,39 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, fieldset, input, textarea, p, th, td {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 12px;
+  font-family: arial,Verdana, Geneva, Helvetica;
+  color: #131313;
+  line-height: 20px;
+}
+
+a {
+  color: #001D75;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #FF3300;
+  text-decoration: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+fieldset, img {
+  border: 0;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+  font-weight: normal;
+}

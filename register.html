@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style type="text/css">
+      *{margin: 0;padding: 0;}
+      body{width: 100%;height: 100%;background: #e8eff6;}
+      .head{width: 1000px;height: 60px;margin: 20px auto;}
+      .head .logo{width: 124px;height: 48px;background: url(../imgs/myelong_login.png) no-repeat ;}
+      .loginbox{width: 1000px;height: 350px;margin: 0 auto;}
+      .loginbox .pic{width: 620px;height: 350px;float: left;background: url(../imgs/banner.jpg) no-repeat;
+      background-size: 100% 100%;}
+      .loginbox .denglu{width: 580px;height: 350px;float: left;margin-left: 50px;border-top: 1px dashed #ccc;}
+      .yiyou{margin:8px 0 0 50px;}
+      .yiyou a{text-decoration: none;color: #5599FF;}
+      .loginhead{width: 100%;height: 100px;padding: 50px 0 0 50px;}
+      .loginbox{width: 1000px;height: 684px;margin: 0 auto;background:#fff; }
+      .denglu .form-item{width: 100%;height: 32px;margin: 4px 0;}
+      .denglu  .form-item p{width: 135px;height: 30px;float: left;text-align: right;line-height: 30px;color: #ccc;font-size: 14px;}
+      .denglu  .form-item input{width: 180px;height: 20px;float: left;}
+      .denglu  .form-item span{width: 135px;height: 30px;float: left;line-height: 30px;color: #ccc;font-size: 14px;}
+      .denglu   button{width:200px;height: 34px;background: orange;border: none;font-size: 20px;color: #fff;margin:50px 0 0 100px;}
+    </style>
+  </head>
+  <body>
+    <div class="head">
+      <div class="logo">
+      </div>
+    </div>
+    <!--denglu  -->
+    <div class="loginbox">
+      <div class="loginhead">
+            <span class="title" >注册新会员</span><span class="yiyou">已有艺龙账号，<a href="login.html">直接登录</a></span>
+      </div>
+      <div class="denglu">
+        <form>
+          <div class="form-item">
+            <p><span class="yu">手机号 ：</span></p><input type="text" name="phone" class="phone"><span class="error_phone"></span>
+          </div>
+          <div class="form-item">
+              <p><span class="yu">用户名 ： </span></p> <input type="text" name="account" class="account"><span class="error_name"></span>
+          </div>
+          <div class="form-item">
+              <p><span class="yu">密码 ：</span></p><input type="password" name="password" class="password"><span class="error_psw"></span>
+          </div>
+          <div class="form-item">
+              <p><span class="yu">再次输入密码 ：</span></p><input type="password" name="again" class="again"><span class="error_again"></span>
+          </div>
+<!--
+          <div><a href="login.html">已有艺龙账号， 直接登录</a></div> -->
+          <button type="button" class="btn-reg">立即注册</button>
+        </form>
+      </div>
+    </div>
+	<script data-main="js/register" src="require.js" defer async="true"></script>
+  </body>
+</html>

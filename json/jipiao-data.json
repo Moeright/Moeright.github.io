@@ -1,0 +1,17 @@
+[
+[{"start":"北京","end":"青岛","time":"05月18日","discount":"1.3折","price":"￥180"},
+{"start":"北京","end":"昆明","time":"05月09日","discount":"1.4折","price":"￥360"},
+{"start":"北京","end":"南京","time":"05月15日","discount":"1.6折","price":"￥300"},
+{"start":"北京","end":"武汉","time":"05月09日","discount":"1.7折","price":"￥320"},
+{"start":"北京","end":"太原","time":"05月15日","discount":"1.7折","price":"￥180"},
+{"start":"北京","end":"丽江","time":"05月09日","discount":"1.8折","price":"￥510"}
+],
+
+[{"start":"上海","end":"武汉","time":"05月18日","discount":"1.3折","price":"￥180"},
+{"start":"上海","end":"海口","time":"05月09日","discount":"1.4折","price":"￥360"},
+{"start":"上海","end":"昆明","time":"05月15日","discount":"1.6折","price":"￥300"},
+{"start":"上海","end":"南京","time":"05月09日","discount":"1.7折","price":"￥320"},
+{"start":"上海","end":"郑州","time":"05月15日","discount":"1.7折","price":"￥180"},
+{"start":"上海","end":"盐城","time":"05月09日","discount":"1.8折","price":"￥510"}
+]
+]
